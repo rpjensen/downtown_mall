@@ -21,6 +21,7 @@ public class CameraButton : MonoBehaviour {
 	}
 
 	public void SetCallback (Callback callback) {
+		callback ();
 		this.callback = callback;
 	}
 
@@ -38,15 +39,6 @@ public class CameraButton : MonoBehaviour {
 		_callFunction = false;
 	}
 
-	void OnMouseDown() {
-		print ("On mouse down");
-		_callFunction = true;
-	}
-
-	void OnMouseUp() {
-		print ("On mosue up");
-		_callFunction = false;
-	}
 
 	private void DefaultCallback() {
 		// Do nothing

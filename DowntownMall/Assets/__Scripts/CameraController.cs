@@ -45,34 +45,35 @@ public class CameraController : MonoBehaviour {
 
 		CameraButton upButton = goUpButton.GetComponent<CameraButton> ();
 		upButton.SetCallback(Up);
-		/*
-		Button downButton = goDownButton.GetComponent<Button> ();
-		downButton.onClick.AddListener (() => Down ());
 
-		Button leftButton = goLeftButton.GetComponent<Button> ();
-		leftButton.onClick.AddListener (() => Left ());
+		CameraButton downButton = goDownButton.GetComponent<CameraButton> ();
+		downButton.SetCallback(Down);
 
-		Button rightButton = goRightButton.GetComponent<Button> ();
-		rightButton.onClick.AddListener (() => Right ());
+		CameraButton rightButton = goRightButton.GetComponent<CameraButton> ();
+		rightButton.SetCallback(Right);
 
-		Button rotUpButton = goRotateUp.GetComponent<Button> ();
-		rotUpButton.onClick.AddListener (() => RotateUp ());
+		CameraButton leftButton = goLeftButton.GetComponent<CameraButton> ();
+		leftButton.SetCallback(Left);
 
-		Button rotDownButton = goRotateDown.GetComponent<Button> ();
-		rotDownButton.onClick.AddListener (() => RotateDown ());
+		CameraButton rotRightButton = goRotateRight.GetComponent<CameraButton> ();
+		rotRightButton.SetCallback(RotateRight);
 
-		Button rotRightButton = goRotateRight.GetComponent<Button> ();
-		rotRightButton.onClick.AddListener (() => RotateRight ());
+		CameraButton rotLeftButton = goRotateLeft.GetComponent<CameraButton> ();
+		rotLeftButton.SetCallback(RotateLeft);
 
-		Button rotLeftButton = goLeftButton.GetComponent<Button> ();
-		rotLeftButton.onClick.AddListener (() => RotateLeft ());
+		CameraButton rotUpButton = goRotateUp.GetComponent<CameraButton> ();
+		rotUpButton.SetCallback(RotateUp);
 
-		Button zoomInButton = goZoomIn.GetComponent<Button> ();
-		zoomInButton.onClick.AddListener (() => ZoomIn ());
+		CameraButton rotDownButton = goRotateDown.GetComponent<CameraButton> ();
+		rotDownButton.SetCallback(RotateDown);
 
-		Button zoomOutButton = goZoomOut.GetComponent<Button> ();
-		zoomOutButton.onClick.AddListener (() => ZoomOut ());
-		*/
+		CameraButton zoomInButton = goZoomIn.GetComponent<CameraButton> ();
+		zoomInButton.SetCallback(ZoomIn);
+
+		CameraButton zoomOutButton = goZoomOut.GetComponent<CameraButton> ();
+		zoomOutButton.SetCallback(ZoomOut);
+
+
 	}
 	
 	// Update is called once per frame
@@ -82,43 +83,52 @@ public class CameraController : MonoBehaviour {
 
 	void Up () {
 		// Pos Z
-		//print ("Up called");
+		print ("Up called");
 
 	}
 
 	void Down () {
 		// Neg Z
+		print ("Down called");
 	}
 
 	void Left () {
 		// Neg X
+		print ("Left called");
 	}
 
 	void Right () {
 		// Pos X
+		print ("Right called");
 	}
 
 	void RotateUp () {
 		// Local X minus
+		print ("RUP called");
 	}
 	
 	void RotateDown () {
 		// Local X plus
+		print ("RDown called");
 	}
 	
 	void RotateLeft () {
 		// Global Y minus
+		print ("Rleft called");
 	}
 	
 	void RotateRight () {
 		// Global Y Plus
+		print ("RRight called");
 	}
 
 	void ZoomIn () {
 		// Local Z plus
+		print ("Zin called");
 	}
 	
 	void ZoomOut () {
 		// Local Z minus
+		print ("Zout called");
 	}
 }
