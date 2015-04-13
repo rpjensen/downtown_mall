@@ -21,7 +21,6 @@ public class CameraButton : MonoBehaviour {
 	}
 
 	public void SetCallback (Callback callback) {
-		callback ();
 		this.callback = callback;
 	}
 
