@@ -10,7 +10,7 @@ public class CameraButton : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		callback = DefaultCallback;
+		//callback = DefaultCallback;
 	}
 	
 	// Update is called once per frame
@@ -24,7 +24,7 @@ public class CameraButton : MonoBehaviour {
 
 	public void SetCallback (Callback callback) {
 		this.callback = callback;
-		callback ();
+		this.callback ();
 	}
 
 	public void ResetCallback () {
@@ -37,12 +37,13 @@ public class CameraButton : MonoBehaviour {
 	}
 
 	public void MouseUp() {
-		print ("On mosue up");
+		print ("On mouse up");
 		_callFunction = false;
 	}
 
 
 	private void DefaultCallback() {
 		// Do nothing
+		print ("Default callback");
 	}
 }

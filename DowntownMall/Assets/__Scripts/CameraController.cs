@@ -195,7 +195,6 @@ public class CameraController : MonoBehaviour {
 	void Right () {
 		// Pos X
 		print ("Right called");
-		Vector3 pos = transform.position;
 		transform.position += Time.deltaTime * translationSensitivity * transform.right;
 		FixConstraints ();
 	}
