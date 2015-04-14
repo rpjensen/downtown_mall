@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class CameraController : MonoBehaviour {
 
+	public static CameraController S;
+
 	public GameObject goUpButton;
 	public GameObject goDownButton;
 	public GameObject goLeftButton;
@@ -16,6 +18,8 @@ public class CameraController : MonoBehaviour {
 
 	public GameObject goZoomIn;
 	public GameObject goZoomOut;
+
+	public GameObject goToggleIntroButton;
 
 	public float maxZ = 12f;
 	public float minZ = -12f;
@@ -31,11 +35,22 @@ public class CameraController : MonoBehaviour {
 	public float tiltSensitivity = 1f;
 	public float zoomSensitivity = 1f;
 
+
+
 	public bool _____________________;
 
+	private Button toggleIntroButton;
+	private Vector3 _initRotation;
+	private Vector3 _initPosition;
 	private Vector3 _rotation;
+	private bool _introUp;
 
+	private GameObject[] cameraTagged;
+	private GameObject[] introTagged;
 
+	void Awake() {
+		S = this;
+	}
 
 	// Use this for initialization
 	void Start () {
@@ -45,8 +60,11 @@ public class CameraController : MonoBehaviour {
 		//this.gameObject.GetComponent<CameraButton> ().SetFun (Fun2);
 		this.gameObject.GetComponent<CameraButton> ().Call();
 		*/
+		_initPosition = new Vector3 (0, 10, 0);
+		transform.position = _initPosition;
 
-		_rotation = new Vector3 (90, 0, 0);
+		_initRotation = new Vector3 (90, 0, 0);
+		_rotation = _initRotation;
 		transform.rotation = Quaternion.Euler(_rotation);
 
 		CameraButton upButton = goUpButton.GetComponent<CameraButton> ();
@@ -80,11 +98,70 @@ public class CameraController : MonoBehaviour {
 		zoomOutButton.SetCallback(ZoomOut);
 
 
+		// Get the camera tagged objects (can't find by tag once they are inactive)
+		cameraTagged = GameObject.FindGameObjectsWithTag ("CameraControl");
+		// Get the intro tagged objects (can't find by tag once they are inactive)
+		introTagged = GameObject.FindGameObjectsWithTag ("Intro");
+
+		toggleIntroButton = goToggleIntroButton.GetComponent<Button> ();
+		toggleIntroButton.onClick.AddListener(() => ToggleIntro ());
+
+		// start false so toggle immediately makes it true
+		_introUp = false;
+		ToggleIntro ();
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
+	}
+
+	void ToggleIntro() {
+		// The text on the button
+		string introButtonText = "";
+		if (_introUp) {
+			// If the intro is showing now disable it
+			// Next click the button will show intro
+			introButtonText = "Show Intro";
+			DisableIntro();// Disable the intro Game objects
+			EnableControls();// Enable the controls
+		} else {
+			// else the controls are showing so show the intro
+			// next click will go back to the world view
+			introButtonText = "Begin";
+			DisableControls();// Disable the controls
+			EnableIntro();// enable the intro
+			transform.position = _initPosition;// make sure the camera is back at the top
+			transform.rotation = Quaternion.Euler(_initRotation);// make sure it is pointing the correct way
+		}
+		// Set the button text
+		toggleIntroButton.GetComponentInChildren<Text>().text = introButtonText;
+		_introUp = !_introUp;// Toggle the boolean
+	}
+
+	void EnableControls () {
+		for (int i = 0; i < cameraTagged.Length; i++) {
+			cameraTagged[i].SetActive(true);
+		}
+	}
+
+	void DisableControls() {
+		for (int i = 0; i < cameraTagged.Length; i++) {
+			cameraTagged[i].SetActive(false);
+		}
+	}
+
+	void EnableIntro() {
+		for (int i = 0; i < introTagged.Length; i++) {
+			introTagged[i].SetActive(true);
+		}
+	}
+
+	void DisableIntro() {
+		for (int i = 0; i < introTagged.Length; i++) {
+			introTagged[i].SetActive(false);
+		}
 	}
 
 	void Up () {
@@ -110,7 +187,6 @@ public class CameraController : MonoBehaviour {
 	void Left () {
 		// Neg X
 		print ("Left called");
-		Vector3 pos = transform.position;
 		transform.position += Time.deltaTime * translationSensitivity * -transform.right;
 		FixConstraints ();
 	}
@@ -171,7 +247,6 @@ public class CameraController : MonoBehaviour {
 	void ZoomIn () {
 		// Local Z plus
 		print ("Zin called");
-		Vector3 pos = transform.position;
 		transform.position += transform.forward * Time.deltaTime * zoomSensitivity;
 		FixConstraints ();
 	}
