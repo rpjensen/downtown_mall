@@ -909,10 +909,10 @@ MonoBehaviour:
   minY: 1
   maxTilt: 90
   minTilt: 30
-  translationSensitivity: 5
-  rotationSensitivity: 30
-  tiltSensitivity: 15
-  zoomSensitivity: 5
+  translationSensitivity: 6
+  rotationSensitivity: 60
+  tiltSensitivity: 30
+  zoomSensitivity: 6
   _____________________: 0
 --- !u!114 &871320305
 MonoBehaviour:

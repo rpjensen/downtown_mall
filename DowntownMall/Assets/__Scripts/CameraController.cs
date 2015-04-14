@@ -94,7 +94,7 @@ public class CameraController : MonoBehaviour {
 		mult.y = 0;
 		mult.Normalize ();
 		transform.position += Time.deltaTime * translationSensitivity * mult;
-
+		FixConstraints ();
 	}
 
 	void Down () {
@@ -104,6 +104,7 @@ public class CameraController : MonoBehaviour {
 		mult.y = 0;
 		mult.Normalize ();
 		transform.position += Time.deltaTime * translationSensitivity * -mult;
+		FixConstraints ();
 	}
 
 	void Left () {
@@ -111,6 +112,7 @@ public class CameraController : MonoBehaviour {
 		print ("Left called");
 		Vector3 pos = transform.position;
 		transform.position += Time.deltaTime * translationSensitivity * -transform.right;
+		FixConstraints ();
 	}
 
 	void Right () {
@@ -118,6 +120,7 @@ public class CameraController : MonoBehaviour {
 		print ("Right called");
 		Vector3 pos = transform.position;
 		transform.position += Time.deltaTime * translationSensitivity * transform.right;
+		FixConstraints ();
 	}
 
 	void RotateUp () {
@@ -131,6 +134,7 @@ public class CameraController : MonoBehaviour {
 		 transform.Rotate (transform.right, -Time.deltaTime * tiltSensitivity);*/
 		_rotation.x -= Time.deltaTime * tiltSensitivity;
 		transform.rotation = Quaternion.Euler (_rotation);
+		FixConstraints ();
 
 	}
 	
@@ -145,23 +149,23 @@ public class CameraController : MonoBehaviour {
 		transform.Rotate (transform.right, Time.deltaTime * tiltSensitivity);*/
 		_rotation.x += Time.deltaTime * tiltSensitivity;
 		transform.rotation = Quaternion.Euler (_rotation);
+		FixConstraints ();
 	}
 	
 	void RotateLeft () {
 		// Global Y minus
 		print ("Rleft called");
-		Vector3 rotation = transform.rotation.eulerAngles;
-
-		rotation.y -= Time.deltaTime * rotationSensitivity;
-		transform.rotation = Quaternion.Euler (rotation);
+		_rotation.y -= Time.deltaTime * rotationSensitivity;
+		transform.rotation = Quaternion.Euler (_rotation);
+		FixConstraints ();
 	}
 	
 	void RotateRight () {
 		// Global Y Plus
 		print ("RRight called");
-		Vector3 rotation = transform.rotation.eulerAngles;
-		rotation.y += Time.deltaTime * rotationSensitivity;
-		transform.rotation = Quaternion.Euler (rotation);
+		_rotation.y += Time.deltaTime * rotationSensitivity;
+		transform.rotation = Quaternion.Euler (_rotation);
+		FixConstraints ();
 	}
 
 	void ZoomIn () {
@@ -169,12 +173,14 @@ public class CameraController : MonoBehaviour {
 		print ("Zin called");
 		Vector3 pos = transform.position;
 		transform.position += transform.forward * Time.deltaTime * zoomSensitivity;
+		FixConstraints ();
 	}
 	
 	void ZoomOut () {
 		// Local Z minus
 		print ("Zout called");
 		transform.position -= transform.forward * Time.deltaTime * zoomSensitivity;
+		FixConstraints ();
 	}
 
 	void FixConstraints() {
@@ -208,12 +214,14 @@ public class CameraController : MonoBehaviour {
 			pos.y = maxY;
 			transform.position = pos;
 		}
-		/*if (transform.rotation.eulerAngles.z > 0) {
-			Vector3 rot = transform.rotation.eulerAngles;
-			rot.x = 90;
-			rot.z = 0;
-			transform.rotation = Quaternion.Euler(rot);
-		}*/
+		if (_rotation.x > maxTilt) {
+			_rotation.x = maxTilt;
+			transform.rotation = Quaternion.Euler(_rotation);
+		}
+		if (_rotation.x < minTilt) {
+			_rotation.x = minTilt;
+			transform.rotation = Quaternion.Euler(_rotation);
+		}
 
 	}
 }
