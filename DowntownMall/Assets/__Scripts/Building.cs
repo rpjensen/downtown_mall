@@ -10,7 +10,8 @@ public class Building : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		buildingLabel = GameObject.Find ("BuildingLabel").GetComponent<Text> ();
+		//buildingLabel = GameObject.Find ("BuildingLabel").GetComponent<Text> ();
+		buildingLabel = CameraController.S.goBuildingLabel.GetComponent<Text> ();
 	}
 	
 	// Update is called once per frame

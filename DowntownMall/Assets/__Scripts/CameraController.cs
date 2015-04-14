@@ -20,6 +20,7 @@ public class CameraController : MonoBehaviour {
 	public GameObject goZoomOut;
 
 	public GameObject goToggleIntroButton;
+	public GameObject goBuildingLabel;
 
 	public float maxZ = 12f;
 	public float minZ = -12f;

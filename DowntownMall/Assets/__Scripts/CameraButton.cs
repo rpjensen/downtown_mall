@@ -14,14 +14,17 @@ public class CameraButton : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		if (_callFunction) {
 			callback();
 		}
 	}
 
+
+
 	public void SetCallback (Callback callback) {
 		this.callback = callback;
+		callback ();
 	}
 
 	public void ResetCallback () {
