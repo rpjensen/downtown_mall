@@ -21,6 +21,7 @@ public class Building : MonoBehaviour {
 
 	void OnMouseEnter() {
 		print ("mouse in");
+		print (buildingName);
 		buildingLabel.text = buildingName;
 	}
 

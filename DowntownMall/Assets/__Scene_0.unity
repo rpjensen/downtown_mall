@@ -142,6 +142,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .11090342
       objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Social Lounge and Tapas
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
@@ -267,6 +271,10 @@ Prefab:
     - target: {fileID: 11421860, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
       value: Build 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: What to Wear, We Eco Screen Print
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -396,6 +404,10 @@ Prefab:
       propertyPath: buildingName
       value: Build 6
       objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Mobillia
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
@@ -453,6 +465,10 @@ Prefab:
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.15467775
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Old Europe
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -515,6 +531,10 @@ Prefab:
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalScale.z
       value: .153913394
+      objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Chevron Trading Post & Bead Co.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
@@ -685,7 +705,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -.268000007
+      value: -.140000001
       objectReference: {fileID: 0}
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalPosition.z
@@ -726,6 +746,10 @@ Prefab:
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalScale.z
       value: .390754998
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Green Light Cafe
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -843,6 +867,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .177608803
       objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Finkelstein's Loan Office
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
@@ -955,6 +983,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .924610436
       objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Downtown Police Station
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
@@ -1013,6 +1045,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .293216944
       objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: The Costume Shoppe, Mountain Light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
@@ -1070,6 +1106,10 @@ Prefab:
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalScale.z
       value: .177608803
+      objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Chacolate Gems
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
@@ -1178,11 +1218,11 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 838537888}
     m_Modifications:
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.61999989
+      value: .000245620555
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1190,7 +1230,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -.490999997
+      value: .955633581
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1198,7 +1238,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalRotation.y
-      value: .694658458
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalRotation.z
@@ -1206,11 +1246,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalRotation.w
-      value: .719339788
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_Name
@@ -1218,15 +1258,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalScale.x
-      value: .442545086
+      value: .815857887
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalScale.y
-      value: .788013577
+      value: .815857887
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalScale.z
-      value: .12557146
+      value: .815857947
+      objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Heiwa Shokudo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
@@ -1410,6 +1454,10 @@ Prefab:
       propertyPath: buildingName
       value: Build 5
       objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Push, Mediterranean Restaurant
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
@@ -1485,7 +1533,11 @@ Transform:
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 56
+  m_RootOrder: 48
+--- !u!4 &838537888 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+  m_PrefabInternal: {fileID: 841478832}
 --- !u!1 &840095929 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 196740, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
@@ -1527,7 +1579,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_Name
@@ -1544,6 +1596,10 @@ Prefab:
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalScale.z
       value: .153913394
+      objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Heiwa Shokudo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
@@ -1620,7 +1676,7 @@ Transform:
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_RootOrder: 45
 --- !u!1 &871320298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1706,7 +1762,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 53
+  m_RootOrder: 39
 --- !u!114 &871320304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1759,39 +1815,39 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1948449066}
     m_Modifications:
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -4.89499998
+      value: -.560129344
       objectReference: {fileID: 0}
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -.0869999975
+      value: -.120641969
       objectReference: {fileID: 0}
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -3.0940001
+      value: 4.525439e-05
       objectReference: {fileID: 0}
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalRotation.x
-      value: .70743984
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -.0132642444
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalRotation.z
-      value: .0135541093
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalRotation.w
-      value: .706519067
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_Name
@@ -1799,15 +1855,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalScale.x
-      value: .0985322669
+      value: .456315547
       objectReference: {fileID: 0}
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalScale.y
-      value: .517612398
+      value: .827446878
       objectReference: {fileID: 0}
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalScale.z
-      value: 1.21757817
+      value: 1.05447447
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Graphics Four
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -1870,6 +1930,10 @@ Prefab:
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalScale.z
       value: .263631225
+      objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Atelier Gallery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
@@ -2047,7 +2111,7 @@ Transform:
   m_LocalScale: {x: 1.7272104, y: .861229241, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 60
+  m_RootOrder: 55
 --- !u!1 &974850724
 GameObject:
   m_ObjectHideFlags: 0
@@ -2207,6 +2271,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .153913394
       objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Shady Grove
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
@@ -2264,6 +2332,10 @@ Prefab:
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_Name
       value: BuildingLight 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Ad Lib
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
@@ -2577,7 +2649,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_RootOrder
-      value: 24
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_Name
@@ -2594,6 +2666,10 @@ Prefab:
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.15467775
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Graphics Four
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -2722,6 +2798,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .960292816
       objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Tops for Shoes
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
@@ -2779,6 +2859,10 @@ Prefab:
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.15478277
+      objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
@@ -2987,6 +3071,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .263631225
       objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Green Sage
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
@@ -3044,6 +3132,10 @@ Prefab:
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalScale.z
       value: .293216944
+      objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: The B and J Department Store
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
@@ -3103,6 +3195,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.15467775
       objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Write On
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
@@ -3160,6 +3256,10 @@ Prefab:
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalScale.z
       value: .88509357
+      objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Lexington Park Antiques
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
@@ -3322,6 +3422,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .177608803
       objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Thai Orchard
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
@@ -3380,62 +3484,12 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.21757817
       objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Nest Organics
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1332709184
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -4.9000001
-      objectReference: {fileID: 0}
-    - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 1.71000004
-      objectReference: {fileID: 0}
-    - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: .00730212172
-      objectReference: {fileID: 0}
-    - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -.0407306254
-      objectReference: {fileID: 0}
-    - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: .00445482321
-      objectReference: {fileID: 0}
-    - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: .999133587
-      objectReference: {fileID: 0}
-    - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
-      propertyPath: m_RootOrder
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
-      propertyPath: m_LocalScale.z
-      value: .916147888
-      objectReference: {fileID: 0}
-    - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
-      propertyPath: m_LocalScale.x
-      value: .307813257
-      objectReference: {fileID: 0}
-    - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1.02999985
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1385896157
 Prefab:
@@ -3758,6 +3812,10 @@ Prefab:
       propertyPath: buildingName
       value: Build 4
       objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Lobster Trap
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
@@ -3823,6 +3881,10 @@ Prefab:
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.15467775
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Strada
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -3981,6 +4043,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .856109083
       objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Tops for Shoes
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
@@ -4031,51 +4097,9 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: .562970102
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1561500321
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -5.21999979
-      objectReference: {fileID: 0}
-    - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -.0900000036
-      objectReference: {fileID: 0}
-    - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 1.67999995
-      objectReference: {fileID: 0}
-    - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: .707427263
-      objectReference: {fileID: 0}
-    - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -.012456134
-      objectReference: {fileID: 0}
-    - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: .0127283381
-      objectReference: {fileID: 0}
-    - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: .706561804
-      objectReference: {fileID: 0}
-    - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
-      propertyPath: m_RootOrder
-      value: 44
-      objectReference: {fileID: 0}
-    - target: {fileID: 11421860, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Build1
+      value: Asheville Executive Suites
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -4148,6 +4172,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .177608803
       objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: The Dog Door
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
@@ -4205,6 +4233,10 @@ Prefab:
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalScale.z
       value: .993022859
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Downtown News and Books
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -4281,7 +4313,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 58
+  m_RootOrder: 53
 --- !u!1 &1728454118
 GameObject:
   m_ObjectHideFlags: 0
@@ -4329,7 +4361,7 @@ RectTransform:
   - {fileID: 1038663851}
   - {fileID: 974850725}
   m_Father: {fileID: 0}
-  m_RootOrder: 57
+  m_RootOrder: 52
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -4476,6 +4508,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.21757817
       objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Wolworth Co.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
@@ -4533,6 +4569,10 @@ Prefab:
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.15467775
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Instant Karma, The Cosmic Vision
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -4691,6 +4731,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .723459244
       objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Edge
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
@@ -4749,6 +4793,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.06867564
       objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: The Lab, Sweet Peas
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
@@ -4778,7 +4826,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 59
+  m_RootOrder: 54
+--- !u!4 &1948449066 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+  m_PrefabInternal: {fileID: 1116226895}
 --- !u!1 &2005054741 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 196740, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
@@ -4838,6 +4890,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.18000901
       objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Wonderland, Spa Theologyq
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
@@ -4895,6 +4951,10 @@ Prefab:
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.15467775
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -4958,6 +5018,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .153913394
       objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Gaea
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
@@ -5015,6 +5079,10 @@ Prefab:
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.15925181
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Asheville Music Hall, One Stop
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -5078,6 +5146,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.21757817
       objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: The Southern
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
@@ -5135,6 +5207,10 @@ Prefab:
     - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.15467775
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Wasabi
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -5198,17 +5274,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: .270000011}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_RootOrder: 43
 --- !u!1001 &2123429066
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 838537888}
     m_Modifications:
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.73600006
+      value: -.15106225
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalPosition.y
@@ -5216,7 +5292,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -.405000001
+      value: 1.6958797
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalRotation.x
@@ -5224,7 +5300,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalRotation.y
-      value: .694658458
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalRotation.z
@@ -5232,11 +5308,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalRotation.w
-      value: .719339788
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_RootOrder
-      value: 48
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_Name
@@ -5244,15 +5320,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalScale.x
-      value: .312088519
+      value: .575353563
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalScale.y
-      value: .555717409
+      value: .575353563
       objectReference: {fileID: 0}
     - target: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_LocalScale.z
-      value: .0885546207
+      value: .575353563
+      objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Heiwa Shokudo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
@@ -5406,6 +5486,10 @@ Prefab:
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_Name
       value: BuildingDark 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Urban Outfitters
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
