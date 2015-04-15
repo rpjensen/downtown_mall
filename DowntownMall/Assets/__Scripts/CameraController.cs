@@ -55,12 +55,6 @@ public class CameraController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		/*
-		//this.gameObject.GetComponent<CameraButton> ().SetFun (Fun);
-		this.gameObject.GetComponent<CameraButton> ().Call();
-		//this.gameObject.GetComponent<CameraButton> ().SetFun (Fun2);
-		this.gameObject.GetComponent<CameraButton> ().Call();
-		*/
 		_initPosition = new Vector3 (0, 10, 0);
 		transform.position = _initPosition;
 
@@ -134,6 +128,7 @@ public class CameraController : MonoBehaviour {
 			DisableControls();// Disable the controls
 			EnableIntro();// enable the intro
 			transform.position = _initPosition;// make sure the camera is back at the top
+			//_rotation = _initRotation;
 			transform.rotation = Quaternion.Euler(_initRotation);// make sure it is pointing the correct way
 		}
 		// Set the button text
