@@ -24,7 +24,6 @@ public class CameraButton : MonoBehaviour {
 
 	public void SetCallback (Callback callback) {
 		this.callback = callback;
-		this.callback ();
 	}
 
 	public void ResetCallback () {
@@ -44,6 +43,5 @@ public class CameraButton : MonoBehaviour {
 
 	private void DefaultCallback() {
 		// Do nothing
-		print ("Default callback");
 	}
 }
