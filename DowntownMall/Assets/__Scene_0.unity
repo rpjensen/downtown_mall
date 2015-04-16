@@ -146,6 +146,10 @@ Prefab:
       propertyPath: m_TagString
       value: MallBuildings
       objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Flipside Boardshop
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
@@ -272,7 +276,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: 15 Carolina
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -408,7 +412,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -474,7 +478,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Green Light Cafe
+      value: Scully's
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -876,7 +880,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Instant Karma, The Cosmic Vision
+      value: 17 Carolina
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -943,6 +947,10 @@ Prefab:
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
       value: MallBuildings
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Forever Tattoo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -1070,7 +1078,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Instant Karma, The Cosmic Vision
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -1079,7 +1087,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &335896247
+--- !u!1 &335896247 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 196740, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_PrefabInternal: {fileID: 1385896157}
@@ -1140,7 +1148,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: Voltage Records
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -1425,7 +1433,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_IsPrefabParent: 0
---- !u!224 &390808903
+--- !u!224 &390808903 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22430388, guid: 2b434e9b688a74091a13b4ae0c63d806,
     type: 2}
@@ -1487,7 +1495,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -1682,6 +1690,10 @@ Prefab:
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
       value: MallBuildings
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: 107 Broadway
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -2061,7 +2073,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Instant Karma, The Cosmic Vision
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -2193,7 +2205,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Instant Karma, The Cosmic Vision
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -2202,7 +2214,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &541305646
+--- !u!4 &541305646 stripped
 Transform:
   m_PrefabParentObject: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_PrefabInternal: {fileID: 1542697766}
@@ -2263,7 +2275,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: Boca
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -2432,7 +2444,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_IsPrefabParent: 0
---- !u!224 &596288460
+--- !u!224 &596288460 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22430388, guid: 2b434e9b688a74091a13b4ae0c63d806,
     type: 2}
@@ -2494,7 +2506,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -2688,7 +2700,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: Hip Replacments Clothing
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -2697,7 +2709,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &725983518
+--- !u!1 &725983518 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 196740, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_PrefabInternal: {fileID: 596288459}
@@ -2763,7 +2775,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &735096991
+--- !u!4 &735096991 stripped
 Transform:
   m_PrefabParentObject: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_PrefabInternal: {fileID: 214964588}
@@ -2824,7 +2836,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: Honeypot
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -3022,7 +3034,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Instant Karma, The Cosmic Vision
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -3158,7 +3170,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: Olive or Twist, Lux
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -3240,11 +3252,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 111
---- !u!4 &838537888
+--- !u!4 &838537888 stripped
 Transform:
   m_PrefabParentObject: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_PrefabInternal: {fileID: 841478832}
---- !u!1 &840095929
+--- !u!1 &840095929 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 196740, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_PrefabInternal: {fileID: 1509301072}
@@ -3581,7 +3593,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: What to Wear, We Eco Screen Print
+      value: Dobra Tea, Izzy's
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -3647,7 +3659,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -3656,7 +3668,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &904851523
+--- !u!4 &904851523 stripped
 Transform:
   m_PrefabParentObject: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_PrefabInternal: {fileID: 1020253079}
@@ -3726,7 +3738,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &938583694
+--- !u!1 &938583694 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 196740, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_PrefabInternal: {fileID: 965413324}
@@ -3787,7 +3799,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Nest Organics
+      value: Hiawassee Private
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -3853,7 +3865,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Instant Karma, The Cosmic Vision
+      value: Va Va Voom
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -4024,7 +4036,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_IsPrefabParent: 0
---- !u!224 &965413325
+--- !u!224 &965413325 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22430388, guid: 2b434e9b688a74091a13b4ae0c63d806,
     type: 2}
@@ -4086,7 +4098,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Instant Karma, The Cosmic Vision
+      value: Mela
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -4095,7 +4107,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &966699959
+--- !u!4 &966699959 stripped
 Transform:
   m_PrefabParentObject: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_PrefabInternal: {fileID: 444076837}
@@ -4597,7 +4609,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -4663,7 +4675,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Nest Organics
+      value: Hiawassee Private
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -4672,7 +4684,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1057887991
+--- !u!4 &1057887991 stripped
 Transform:
   m_PrefabParentObject: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_PrefabInternal: {fileID: 1057887990}
@@ -4750,7 +4762,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b32454b7f2097412d846bb46d58abe45, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1058933305
+--- !u!4 &1058933305 stripped
 Transform:
   m_PrefabParentObject: {fileID: 452146, guid: b32454b7f2097412d846bb46d58abe45, type: 2}
   m_PrefabInternal: {fileID: 1058933304}
@@ -4877,7 +4889,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -4943,7 +4955,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -5144,7 +5156,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Strada
+      value: Gourmet Chip, Carolina Cigar Company
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -5276,7 +5288,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -5408,7 +5420,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: Royal Peasantry, Octopus Garden
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -5483,7 +5495,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1205557360
+--- !u!4 &1205557360 stripped
 Transform:
   m_PrefabParentObject: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_PrefabInternal: {fileID: 1734855979}
@@ -5544,7 +5556,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: Blend, TV Eye
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -5647,7 +5659,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_IsPrefabParent: 0
---- !u!224 &1232890920
+--- !u!224 &1232890920 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22430388, guid: 2b434e9b688a74091a13b4ae0c63d806,
     type: 2}
@@ -5759,7 +5771,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: Broadways
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -6130,7 +6142,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_IsPrefabParent: 0
---- !u!224 &1275400978
+--- !u!224 &1275400978 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22430388, guid: 2b434e9b688a74091a13b4ae0c63d806,
     type: 2}
@@ -6259,6 +6271,10 @@ Prefab:
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
       value: MallBuildings
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Counter Culture Coffee, WNC Public Radio
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -6448,7 +6464,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Nest Organics
+      value: Hiawassee Private
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -6551,12 +6567,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_IsPrefabParent: 0
---- !u!224 &1385896158
+--- !u!224 &1385896158 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22430388, guid: 2b434e9b688a74091a13b4ae0c63d806,
     type: 2}
   m_PrefabInternal: {fileID: 1385896157}
---- !u!1 &1392385053
+--- !u!1 &1392385053 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 196740, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_PrefabInternal: {fileID: 390808902}
@@ -6617,7 +6633,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: Bouchon
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -6683,7 +6699,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -6850,7 +6866,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_IsPrefabParent: 0
---- !u!224 &1444888990
+--- !u!224 &1444888990 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22430388, guid: 2b434e9b688a74091a13b4ae0c63d806,
     type: 2}
@@ -6912,7 +6928,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -6978,7 +6994,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Strada
+      value: Loft
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -7057,11 +7073,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1482047641
+--- !u!1 &1482047641 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 196740, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_PrefabInternal: {fileID: 1275400977}
---- !u!4 &1493436804
+--- !u!4 &1493436804 stripped
 Transform:
   m_PrefabParentObject: {fileID: 452146, guid: b32454b7f2097412d846bb46d58abe45, type: 2}
   m_PrefabInternal: {fileID: 1239723394}
@@ -7225,7 +7241,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_IsPrefabParent: 0
---- !u!224 &1509301073
+--- !u!224 &1509301073 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22430388, guid: 2b434e9b688a74091a13b4ae0c63d806,
     type: 2}
@@ -7296,7 +7312,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1535034514
+--- !u!4 &1535034514 stripped
 Transform:
   m_PrefabParentObject: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_PrefabInternal: {fileID: 2141339820}
@@ -7419,7 +7435,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: On a Roll Designq
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -7547,7 +7563,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Instant Karma, The Cosmic Vision
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -7613,7 +7629,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -7692,7 +7708,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Instant Karma, The Cosmic Vision
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -7758,7 +7774,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: Lark Books
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -8234,7 +8250,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: Emerald Lounge
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -8465,7 +8481,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_IsPrefabParent: 0
---- !u!224 &1833734133
+--- !u!224 &1833734133 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22430388, guid: 2b434e9b688a74091a13b4ae0c63d806,
     type: 2}
@@ -8593,7 +8609,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: 5 Walnut
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -8787,7 +8803,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Social Lounge and Tapas
+      value: Futon Designs
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -8948,6 +8964,10 @@ Prefab:
       propertyPath: m_TagString
       value: MallBuildings
       objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Static Age
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
@@ -9013,7 +9033,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1948449066
+--- !u!4 &1948449066 stripped
 Transform:
   m_PrefabParentObject: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_PrefabInternal: {fileID: 1116226895}
@@ -9074,7 +9094,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: Coop
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -9140,7 +9160,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: Loretta's
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -9149,7 +9169,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &2005054741
+--- !u!1 &2005054741 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 196740, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_PrefabInternal: {fileID: 1444888989}
@@ -9212,6 +9232,10 @@ Prefab:
       propertyPath: m_TagString
       value: MallBuildings
       objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Madame Butterfly
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
@@ -9272,7 +9296,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Lexington Park Antiques
+      value: Cornerstone Minerals, Chatsworth Antiques, Second Gear
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -9406,10 +9430,14 @@ Prefab:
       propertyPath: m_TagString
       value: MallBuildings
       objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Rosetta's Kitchen
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &2047607621
+--- !u!4 &2047607621 stripped
 Transform:
   m_PrefabParentObject: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_PrefabInternal: {fileID: 504432102}
@@ -9479,7 +9507,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &2071324396
+--- !u!1 &2071324396 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 196740, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_PrefabInternal: {fileID: 1232890919}
@@ -9672,7 +9700,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Instant Karma, The Cosmic Vision
+      value: Minx
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -9738,7 +9766,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Gaea
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -9747,7 +9775,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &2108031180
+--- !u!1 &2108031180 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 196740, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_PrefabInternal: {fileID: 2135178801}
@@ -10000,7 +10028,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Instant Karma, The Cosmic Vision
+      value: Virtue
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -10132,7 +10160,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Social Lounge and Tapas
+      value: Broadway Arts Building
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -10141,7 +10169,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &2124555050
+--- !u!1 &2124555050 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 196740, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_PrefabInternal: {fileID: 1833734132}
@@ -10243,7 +10271,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b434e9b688a74091a13b4ae0c63d806, type: 2}
   m_IsPrefabParent: 0
---- !u!224 &2135178802
+--- !u!224 &2135178802 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22430388, guid: 2b434e9b688a74091a13b4ae0c63d806,
     type: 2}
@@ -10305,7 +10333,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Strada
+      value: Futon Designs
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
