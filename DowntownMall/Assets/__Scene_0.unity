@@ -772,7 +772,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: Gaeaq
+      value: Gaea
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -3951,7 +3951,7 @@ Transform:
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 115
+  m_RootOrder: 114
 --- !u!4 &838537888 stripped
 Transform:
   m_PrefabParentObject: {fileID: 490114, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
