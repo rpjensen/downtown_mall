@@ -20,6 +20,7 @@ public class CameraController : MonoBehaviour {
 	public GameObject goZoomOut;
 
 	public GameObject goToggleIntroButton;
+	public GameObject goToggleDowntownButton;
 	public GameObject goBuildingLabel;
 
 	public float maxZ = 12f;
@@ -41,13 +42,18 @@ public class CameraController : MonoBehaviour {
 	public bool _____________________;
 
 	private Button toggleIntroButton;
+	private Button toggleDowntownButton;
 	private Vector3 _initRotation;
 	private Vector3 _initPosition;
 	private Vector3 _rotation;
 	private bool _introUp;
+	private bool _downtownUp;
 
 	private GameObject[] cameraTagged;
 	private GameObject[] introTagged;
+
+	private GameObject[] downtownTagged;
+	private GameObject[] mallTagged;
 
 	void Awake() {
 		S = this;
@@ -97,13 +103,23 @@ public class CameraController : MonoBehaviour {
 		cameraTagged = GameObject.FindGameObjectsWithTag ("CameraControl");
 		// Get the intro tagged objects (can't find by tag once they are inactive)
 		introTagged = GameObject.FindGameObjectsWithTag ("Intro");
+		// Get the downtown tagged objects (can't find by tag once they are inactive)
+		downtownTagged = GameObject.FindGameObjectsWithTag ("Downtown");
+		// Get the mall tagged objects (can't find by tag once they are inactive)
+		mallTagged = GameObject.FindGameObjectsWithTag ("Mall");
 
 		toggleIntroButton = goToggleIntroButton.GetComponent<Button> ();
-		toggleIntroButton.onClick.AddListener(() => ToggleIntro ());
+		toggleIntroButton.onClick.AddListener(() => ToggleIntro());
+
+		toggleDowntownButton = goToggleDowntownButton.GetComponent<Button> ();
+		toggleDowntownButton.onClick.AddListener(() => ToggleDowntownAndMall());
 
 		// start false so toggle immediately makes it true
 		_introUp = false;
 		ToggleIntro ();
+		_downtownUp = false;
+		ToggleDowntownAndMall ();
+
 		
 	}
 	
@@ -121,19 +137,37 @@ public class CameraController : MonoBehaviour {
 			introButtonText = "Show Intro";
 			DisableIntro();// Disable the intro Game objects
 			EnableControls();// Enable the controls
-		} else {
+		}
+		else {
 			// else the controls are showing so show the intro
 			// next click will go back to the world view
 			introButtonText = "Begin";
 			DisableControls();// Disable the controls
 			EnableIntro();// enable the intro
 			transform.position = _initPosition;// make sure the camera is back at the top
-			//_rotation = _initRotation;
+			_rotation = _initRotation;
 			transform.rotation = Quaternion.Euler(_initRotation);// make sure it is pointing the correct way
 		}
 		// Set the button text
+		print (toggleIntroButton);
 		toggleIntroButton.GetComponentInChildren<Text>().text = introButtonText;
 		_introUp = !_introUp;// Toggle the boolean
+	}
+
+	void ToggleDowntownAndMall() {
+		string buttonText = "";
+		if (_downtownUp) {
+			buttonText = "Show Downtown";
+			DisableDowntown();
+			EnableMall();
+		}
+		else {
+			buttonText = "Show Mall";
+			DisableMall();
+			EnableDowntown();
+		}
+		toggleDowntownButton.GetComponentsInChildren<Text> (true)[0].text = buttonText;
+		_downtownUp = !_downtownUp;
 	}
 
 	void EnableControls () {
@@ -157,6 +191,30 @@ public class CameraController : MonoBehaviour {
 	void DisableIntro() {
 		for (int i = 0; i < introTagged.Length; i++) {
 			introTagged[i].SetActive(false);
+		}
+	}
+
+	void EnableDowntown() {
+		for (int i = 0; i < downtownTagged.Length; i++) {
+			downtownTagged[i].SetActive(true);
+		}
+	}
+
+	void DisableDowntown() {
+		for (int i = 0; i < downtownTagged.Length; i++) {
+			downtownTagged[i].SetActive(false);
+		}
+	}
+
+	void EnableMall() {
+		for (int i = 0; i < mallTagged.Length; i++) {
+			mallTagged[i].SetActive(true);
+		}
+	}
+
+	void DisableMall() {
+		for (int i = 0; i < mallTagged.Length; i++) {
+			mallTagged[i].SetActive(false);
 		}
 	}
 
