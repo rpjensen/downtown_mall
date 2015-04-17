@@ -941,7 +941,7 @@ GameObject:
   - 114: {fileID: 198905566}
   m_Layer: 5
   m_Name: BuildingLabel
-  m_TagString: MallBuildings
+  m_TagString: CameraControl
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -953,14 +953,14 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 198905564}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.08616239e-05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1728454119}
-  m_RootOrder: 13
+  m_RootOrder: 17
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -185, y: 175}
+  m_AnchoredPosition: {x: -185.006104, y: 174.999969}
   m_SizeDelta: {x: 400, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &198905566
@@ -1550,7 +1550,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: buildingName
-      value: RedwoUpholstery and Repair
+      value: Redwood Upholstery and Repair
       objectReference: {fileID: 0}
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_TagString
@@ -2432,6 +2432,10 @@ Prefab:
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
+      propertyPath: buildingName
+      value: Asheville Executive Suites
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
@@ -6062,7 +6066,7 @@ RectTransform:
   m_Children:
   - {fileID: 1085268171}
   m_Father: {fileID: 1728454119}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -296, y: -170}
@@ -6518,7 +6522,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1728454119}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -10013,7 +10017,7 @@ RectTransform:
   m_Children:
   - {fileID: 1279823873}
   m_Father: {fileID: 1728454119}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 312, y: -120}
@@ -10672,6 +10676,10 @@ Prefab:
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Earth Guild
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -11489,7 +11497,7 @@ RectTransform:
   m_Children:
   - {fileID: 1965142578}
   m_Father: {fileID: 1728454119}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 312, y: -84}
@@ -11683,11 +11691,11 @@ RectTransform:
   - {fileID: 2135178802}
   - {fileID: 1275400978}
   - {fileID: 1653670845}
-  - {fileID: 198905565}
   - {fileID: 1038663851}
   - {fileID: 974850725}
   - {fileID: 1704251296}
   - {fileID: 1459200190}
+  - {fileID: 198905565}
   m_Father: {fileID: 0}
   m_RootOrder: 122
   m_AnchorMin: {x: 0, y: 0}
@@ -11831,6 +11839,10 @@ Prefab:
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Woolworth Walk
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -13348,7 +13360,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Coop
+      value: CoOp
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -13780,7 +13792,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11464728, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: buildingName
-      value: Wonderland, Spa Theologyq
+      value: Wonderland, Spa Theology
       objectReference: {fileID: 0}
     - target: {fileID: 109464, guid: cc7b4919759bf7249a2eaa385fab2759, type: 2}
       propertyPath: m_TagString
@@ -14198,6 +14210,18 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.18705404
+      objectReference: {fileID: 0}
+    - target: {fileID: 429834, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.55590796
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Asheville Music Hall, Onestop
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
   m_IsPrefabParent: 0
@@ -14531,6 +14555,10 @@ Prefab:
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: The Southern
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
@@ -15106,6 +15134,10 @@ Prefab:
     - target: {fileID: 123200, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455544, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
+      propertyPath: buildingName
+      value: Urban Outfitters
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6613ee04c76b7f4681f6abf8ea94fac, type: 2}
